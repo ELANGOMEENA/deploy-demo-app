@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: demp-pyapp-service
+  name: demp-python-app-service
   namespace: default
   labels:
-    app: demo-pyapp
+    app: demo-python-app
 spec:
   selector:
-    app: demo-pyapp
+    app: demo-python-app
   ports:
     - protocol: TCP
       port: 8080
