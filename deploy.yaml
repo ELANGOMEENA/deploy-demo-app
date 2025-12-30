@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: demo-pyapp
+  name: demo-python-app
   namespace: default
   labels:
-    app: demo-pyapp
+    app: demo-python-app
 spec:
   replicas: 5
   selector:
     matchLabels:
-      app: demo-pyapp
+      app: demo-python-app
   template:
     metadata:
       labels:
-        app: demo-pyapp
+        app: demo-python-app
     spec:
       containers:
-      - name: demo-pyapp
-        image:  docker-repo.sk-devops.com/demo-pyapp:v1
+      - name: demo-python-app
+        image:  docker-repo.sk-devops.com/demo-python-app:v1
         ports:
         - containerPort: 5000
