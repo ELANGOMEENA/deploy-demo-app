@@ -20,3 +20,4 @@ spec:
           image: docker-repo.sk-devops.com/demo-python-app:v7832bff
           ports:
             - containerPort: 5000
+        - image: docker-repo.sk-devops.com/demo-python-app:v7832bff
