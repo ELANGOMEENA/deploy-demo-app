@@ -22,4 +22,3 @@ spec:
           image: docker-repo.sk-devops.com/demo-python-app:v411917e
           ports:
             - containerPort: 5000
-     
