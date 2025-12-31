@@ -17,8 +17,8 @@ spec:
     spec:
       containers:
         - name: my-app
-          image: sathishkarengula/demo-pyapp:v1
+          image: docker-repo.sk-devops.com/demo-python-app:v411917e
           ports:
             - containerPort: 5000
-      #imagePullSecrets:
-        #-name: regcred
+              #imagePullSecrets:
+      #-name: regcred
