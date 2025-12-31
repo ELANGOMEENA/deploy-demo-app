@@ -20,5 +20,4 @@ spec:
           image: docker-repo.sk-devops.com/demo-python-app:vd9bd4db
           ports:
             - containerPort: 5000
-      imagePullSecrets:
-        -name: regcred
+    
