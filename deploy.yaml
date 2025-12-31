@@ -16,7 +16,7 @@ spec:
         app: demo-python-app
     spec:
       containers:
-      - name: demo-python-app
-        image:  satishkarengula/demo-python-app:v1
-        ports:
-        - containerPort: 5000
+        - name: demo-python-app
+          image: docker-repo.sk-devops.com/demo-python-app:v7832bff
+          ports:
+            - containerPort: 5000
