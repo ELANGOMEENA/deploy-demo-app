@@ -15,10 +15,10 @@ spec:
       labels:
         app: my-app
     spec:
-      imagePullSecrets:
-        -name: regcred
       containers:
         - name: my-app
           image: docker-repo.sk-devops.com/demo-python-app:v411917e
           ports:
             - containerPort: 5000
+      imagePullSecrets:
+        -name: regcred
