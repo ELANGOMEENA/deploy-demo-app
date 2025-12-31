@@ -4,7 +4,7 @@ metadata:
   name: demp-python-app-service
   labels:
     app: demo-python-app
-    namespace: default
+  namespace: default
 spec:
   selector:
     app: demo-python-app
@@ -12,4 +12,3 @@ spec:
     - protocol: TCP
       port: 5000
       targetport: 5000
-  type: ClusterIP
