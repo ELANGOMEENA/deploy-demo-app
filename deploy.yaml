@@ -4,7 +4,7 @@ metadata:
   name: demo-python-app
   labels:
     app: demo-python-app
-    namespace: default
+  namespace: default
 spec:
   replicas: 5
   selector:
