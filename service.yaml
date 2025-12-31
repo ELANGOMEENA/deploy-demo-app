@@ -10,6 +10,6 @@ spec:
     app: demo-python-app
   ports:
     - protocol: TCP
-      port:5000
-      TargetPort: 5000
+      port: 5000
+      targetport: 5000
   type: ClusterIP
