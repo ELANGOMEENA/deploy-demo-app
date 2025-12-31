@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: my-app
-          image: docker-repo.sk-devops.com/demo-python-app:v24936f3
+          image: docker-repo.sk-devops.com/demo-python-app:vaf3bff4
           ports:
             - containerPort: 5000
       imagePullSecrets:
